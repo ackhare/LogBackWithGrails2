@@ -52,11 +52,7 @@ grails.project.dependency.resolution = {
 //    mavenRepo "https://webdavclient4j.svn.sourceforge.net/svnroot/webdavclient4j/trunk/m2"
 
         // uncomment these (or add new ones) to enable remote dependency resolution from public Maven repositories
-        mavenRepo "http://snapshots.repository.codehaus.org"
-        mavenRepo "http://repository.codehaus.org"
-        mavenRepo "http://download.java.net/maven/2/"
-        mavenRepo "http://repository.jboss.com/maven2/"
-        mavenRepo "http://repo.grails.org/grails/plugins/"
+
         mavenRepo "http://repo.grails.org/grails/libs-releases/"
 //    mavenRepo "http://repo.grails.org/grails/core"
 //
@@ -88,8 +84,8 @@ grails.project.dependency.resolution = {
         //test "org.grails:grails-datastore-test-support:1.0.2-grails-2.4"
         //compile 'org.apache.httpcomponents:httpcore:4.3'
         //compile 'org.apache.httpcomponents:httpclient:4.3'
-        compile 'ch.qos.logback:logback-classic:1.0.6'
-        runtime 'ch.qos.logback:logback-classic:1.0.6'
+//        compile 'ch.qos.logback:logback-classic:1.0.6'
+
     }
 
     plugins {
